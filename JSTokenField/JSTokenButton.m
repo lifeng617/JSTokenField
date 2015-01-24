@@ -42,8 +42,8 @@
 + (JSTokenButton *)tokenWithString:(NSString *)string representedObject:(id)obj parentField:(JSTokenField *)parentField
 {
 	JSTokenButton *button = (JSTokenButton *)[self buttonWithType:UIButtonTypeCustom];
-	[button setNormalBg:[[UIImage imageNamed:@"tokenNormal.png"] stretchableImageWithLeftCapWidth:14 topCapHeight:0]];
-	[button setHighlightedBg:[[UIImage imageNamed:@"tokenHighlighted.png"] stretchableImageWithLeftCapWidth:14 topCapHeight:0]];
+	[button setNormalBg:[[UIImage imageNamed:@"token_normal"] stretchableImageWithLeftCapWidth:14 topCapHeight:0]];
+	[button setHighlightedBg:[[UIImage imageNamed:@"token_highlighted"] stretchableImageWithLeftCapWidth:14 topCapHeight:0]];
 	[button setAdjustsImageWhenHighlighted:NO];
 	[button setTitleColor:[UIColor blackColor] forState:UIControlStateNormal];
 	[[button titleLabel] setFont:[UIFont fontWithName:@"Helvetica Neue" size:15]];
